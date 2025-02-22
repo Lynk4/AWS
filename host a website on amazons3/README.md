@@ -31,11 +31,16 @@ Updating the Bucket Policy to allow public read access.
 
 ### This project took me around 15-20 minutes to complete.
 
-Breakdown of Time Spent:  
-✅  Creating the S3 Bucket & Uploading Files - 5 minutes  
-✅  Enabling Static Website Hosting - 2 minutes  
-✅  Fixing Access Issues - 403 Error, ACLs, Bucket Policy) - 7 minutes
+***Breakdown of Time Spent:***  
+✅  Creating the S3 Bucket & Uploading Files - 5 minutes. 
+
+✅  Enabling Static Website Hosting - 2 minutes.  
+
+✅  Fixing Access Issues - 403 Error, ACLs, Bucket Policy) - 7 minutes.   
+
 ✅  Testing & Verifying Website Accessibility - 3-5 minutes.  
+
+
 #### How I Set Up an S3 Bucket
 
 Creating an S3 bucket took me just a few seconds. The process is almost instantaneous, as AWS provisions the bucket immediately after you specify a  unique name, select a region, and configure optional settings like versioning, encryption, or ACLs.
@@ -210,6 +215,7 @@ Creating a bucket policy to prevent anyone from deleting the bucket or its conte
 
 #### When you try to delete the s3 it won't..
 <img width="1299" alt="delete-denied-3" src="https://github.com/user-attachments/assets/3a985628-d829-4ffe-807a-c71a60de2e11" />
+
 ### Security Considerations
 
 - **Scope**: This policy specifically targets the `index.html` object. Ensure that this is the intended object to protect.
