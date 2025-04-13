@@ -1,5 +1,5 @@
 # EKS Cluster Games
-
+# CTF Link: https://eksclustergames.com/
 ---
 ## [Challenge 1: Secret Seeker](https://eksclustergames.com/challenge/1)
 
